@@ -44,27 +44,7 @@ ALU Functions:
 
 BLOCK DIAGRAM:
 
-┌────────────┐       ┌────────────┐       ┌──────────────┐       ┌───────────┐
-│            │       │            │       │              │       │           │
-│ Register   │  A ─▶ │            │   Z ─▶│ Register File│   Z ─▶│           │
-│ File       │  B ─▶ │    ALU     │       │   (Writeback)│       │  Memory   │
-│ (Read rs1, │       │            │       │              │       │           │
-│ rs2)       │       │            │       │              │       │           │
-│            │◀──────rd, func────▶│◀──────rd────────────▶│       │           │
-└────┬───────┘       └────┬───────┘       └────┬─────────┘       └────┬──────┘
-     │                    │                    │                      │
-     │                    │                    │                      │
-     ▼                    ▼                    ▼                      ▼
-    rs1, rs2, rd, func   L12                  L23                    L34
-                        (A,B,rd,func,addr)   (Z,rd,addr)            (Z,addr)
-
-            ┌────────────────────────────────────────────────┐
-            │                    Pipeline                    │
-            │      S1          →       S2      →   S3   → S4 │
-            │ Instruction     →       ALU      →  WB   → MEM │
-            └────────────────────────────────────────────────┘
-
-
+![bd](https://github.com/user-attachments/assets/4ba07e02-224a-46b3-be8a-00ec219e055e)
 
 
 
