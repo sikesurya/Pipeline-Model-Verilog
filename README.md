@@ -46,6 +46,9 @@ BLOCK DIAGRAM:
 
 ![bd](https://github.com/user-attachments/assets/4ba07e02-224a-46b3-be8a-00ec219e055e)
 
+Simulation Waveform:
+
+![image](https://github.com/user-attachments/assets/3cd5dd51-26b5-4a50-9d46-dadae8828c9d)
 
 
 
