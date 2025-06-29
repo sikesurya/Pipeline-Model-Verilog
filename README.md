@@ -1,5 +1,6 @@
 # Pipeline-Model-Verilog
-learning about pipelining, this being the second, more complex pipeline implementation on I've done on verilog.
+
+Tool(s) used: Xilinx Vivado
 
 This pipeline carries out the following stage-wise operations:
 
