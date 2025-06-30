@@ -1,4 +1,4 @@
-# Pipeline-Model-Verilog
+# 4-Stage-Pipeline-Model
 
 Tool(s) used: Xilinx Vivado
 
